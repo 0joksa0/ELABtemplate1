@@ -1,26 +1,67 @@
 header{
+    width: 100%;
+    height: 5%;
+    position: relative;
+    top: 0;
+    left: 0;
     background-color: #333;
-    padding: 1rem;
+    padding: 2rem;
     color: white;
     border-bottom: 1px solid black;
 }
+header h1{
+    position: absolute;
+    top: 50%;
+    left:2%;
+    transform: translateY(-50%);
+}
+header h2{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
 
 .content{
+    position: relative;
     padding: 1rem;
     background-color: lightgrey;
-    
+    top: 15%;
+    width: 100%;
+    height: 80rem;
 }
 
 section{
-    
-    padding: 1rem;
+    position: absolute;
+    background-color: lightgray;
+    height: 35rem;
+    width: 40%;
     border: 1px solid black;
     border-radius: 20px;
     margin: 1rem;
+    text-align: center;
+}
+
+#one{
+    top: 0;
+    left: 0;
+}
+
+#two{
+    top: 0;
+    right: 0;
+}
+
+#three{
+    bottom: 0;
+    left: 0;
+}
+#four{
+    bottom: 0;
+    right: 0;
 }
 
 .imgPlaceholder{
-    width: 80%;
     border-radius: 20px;
 }
 
