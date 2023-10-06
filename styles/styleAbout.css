@@ -40,3 +40,17 @@ aside > h1 a{
 aside > h1 a:hover{
     color: black;
 }
+
+@media (max-width: 768px) {
+    .mainContent{
+        flex-direction: column-reverse;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+    
+}
