@@ -1,0 +1,30 @@
+header{
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.content{
+    padding: 1rem;
+    background-color: lightgrey;
+    
+}
+
+section{
+    
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.imgPlaceholder{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.imgPlaceholder img{
+    width: 100%;
+    border-radius: 20px;
+}
